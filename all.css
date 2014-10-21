@@ -58,7 +58,11 @@ input, textarea, select {
 	overflow: hidden;
 }
 /*logo*/
-
+@media(max-width:400px){
+	.logo{
+		display:none;
+	}
+}
 .logo {
 	float: left;
 	margin: 21px 0 0;
@@ -632,6 +636,7 @@ input, textarea, select {
 	width: 209px;
 	float: left;
 }
+
 #sidebar .heading-block {
 	padding: 12px 8px 5px;
 	overflow: hidden;

@@ -58,6 +58,7 @@ input, textarea, select {
 	overflow: hidden;
 }
 /*logo*/
+
 .logo {
 	float: left;
 	margin: 21px 0 0;
@@ -184,6 +185,9 @@ input, textarea, select {
 	text-decoration: underline;
 }
 /*main navigation*/
+@media(){
+
+}
 #nav {
 	margin: 0 -9999px;
 	padding: 0 9999px;
@@ -327,6 +331,11 @@ input, textarea, select {
 	margin-top: -7px;
 }
 /*aside block*/
+@media(max-width:500px){
+	.aside{
+		display:none;
+	}
+}
 .aside {
 	float: right;
 	margin: 0 0 -20px;
@@ -343,6 +352,7 @@ input, textarea, select {
 	background: #fff;
 	margin: 0 -24px 0 -22px;
 	padding: 6px 6px 6px 7px;
+	display: none;
 }
 .main-gallery>.mask {
 	overflow: hidden;
